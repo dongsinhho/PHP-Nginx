@@ -1,0 +1,3 @@
+FROM php:7.2-fpm
+COPY index.php:/code/
+RUN php code/index.php
